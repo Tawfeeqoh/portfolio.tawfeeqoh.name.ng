@@ -1,0 +1,30 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "framework": null,
+  "buildCommand": null,
+  "installCommand": null,
+  "outputDirectory": "dist",
+  "trailingSlash": true,
+  "redirects": [
+    {
+      "source": "/work",
+      "destination": "/websites/",
+      "permanent": true
+    },
+    {
+      "source": "/services",
+      "destination": "/work-with-me/",
+      "permanent": true
+    },
+    {
+      "source": "/contact",
+      "destination": "/work-with-me/",
+      "permanent": true
+    },
+    {
+      "source": "/about",
+      "destination": "https://tawfeeqoh.name.ng/",
+      "permanent": true
+    }
+  ]
+}

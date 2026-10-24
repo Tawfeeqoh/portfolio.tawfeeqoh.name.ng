@@ -1,0 +1,15 @@
+.signature-logo{--logo-color:var(--pink);--logo-bg:var(--mulberry);--dot:var(--lime);display:flex;align-items:flex-end;gap:.055em;width:fit-content;margin:auto;font-size:clamp(46px,14.8cqw,105px);height:1.04em;transform:skewX(-7deg);color:var(--logo-color)}
+.signature-logo>span{position:relative;display:block;flex-shrink:0;height:.78em}
+.letter-i{width:.20em;background:currentColor}
+.letter-i:before{content:'';position:absolute;background:var(--dot);height:.21em;width:.21em;top:-.29em;left:0;transform:rotate(45deg)}
+.letter-a{width:.68em;border:.195em solid currentColor;border-bottom-width:.18em;border-radius:.35em .35em 0 .24em}
+.letter-a:after{content:'';position:absolute;right:-.195em;bottom:-.18em;height:.51em;width:.195em;background:currentColor}
+.letter-m{width:1.04em;border:.195em solid currentColor;border-bottom:0;border-radius:.30em .30em 0 0}
+.letter-m:before{content:'';position:absolute;left:.23em;top:-.195em;width:.195em;height:.78em;background:currentColor}
+.letter-m:after{content:'';position:absolute;left:.24em;top:-.195em;width:.20em;height:.20em;background:var(--logo-bg);clip-path:polygon(0 0,100% 0,50% 65%)}
+.letter-t{width:.47em;background:linear-gradient(currentColor,currentColor) center/ .205em 100% no-repeat;border-radius:0 0 .12em .12em}
+.letter-t:before{content:'';position:absolute;top:.12em;left:-.035em;width:.53em;height:.195em;background:currentColor}
+.letter-t:after{content:'';position:absolute;top:-.25em;left:.1325em;width:.205em;height:.30em;background:currentColor;clip-path:polygon(0 30%,100% 0,100% 100%,0 100%)}
+.letter-w{width:.96em;background:currentColor;clip-path:polygon(0 0,23% 0,31% 60%,41% 19%,59% 19%,69% 60%,77% 0,100% 0,85% 100%,62% 100%,50% 59%,38% 100%,15% 100%)}
+
+.signature-logo{font-size:35px;margin:0;--logo-color:var(--mulberry);--logo-bg:var(--cream);--dot:var(--lime)}

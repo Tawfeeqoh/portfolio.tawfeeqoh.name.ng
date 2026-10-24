@@ -1,0 +1,46 @@
+[
+  {
+    "title": "Enquiry intake",
+    "desc": "A website enquiry moves from a webhook into structured fields, with missing information marked for review.",
+    "tag": "Enquiries",
+    "seconds": 54,
+    "id": "enquiry-intake",
+    "video": "https://res.cloudinary.com/khornbvt/video/upload/v1792565000/iamtaw/automation/enquiry-intake.mp4",
+    "poster": "https://res.cloudinary.com/khornbvt/image/upload/v1792565093/iamtaw/automation/enquiry-intake-poster.webp",
+    "bytes": 738651,
+    "uploadDate": "2026-10-21T06:43:20Z"
+  },
+  {
+    "title": "Intelligent lead intake",
+    "desc": "Validate an enquiry, check the contact record in Google Sheets and route the next step through an n8n workflow.",
+    "tag": "Lead operations",
+    "seconds": 62,
+    "id": "intelligent-lead-intake",
+    "video": "https://res.cloudinary.com/khornbvt/video/upload/v1792565062/iamtaw/automation/intelligent-lead-intake.mp4",
+    "poster": "https://res.cloudinary.com/khornbvt/image/upload/v1792565099/iamtaw/automation/intelligent-lead-intake-poster.webp",
+    "bytes": 3701384,
+    "uploadDate": "2026-10-21T06:44:22Z"
+  },
+  {
+    "title": "Email marketing operations",
+    "desc": "Check subscriber consent and suppression lists, then prepare campaign copy from an approved brief.",
+    "tag": "Email operations",
+    "seconds": 78,
+    "id": "email-marketing",
+    "video": "https://res.cloudinary.com/khornbvt/video/upload/v1792565043/iamtaw/automation/email-marketing.mp4",
+    "poster": "https://res.cloudinary.com/khornbvt/image/upload/v1792565096/iamtaw/automation/email-marketing-poster.webp",
+    "bytes": 2713883,
+    "uploadDate": "2026-10-21T06:44:03Z"
+  },
+  {
+    "title": "Order fulfilment",
+    "desc": "Verify an order event, check duplicates and route payment, inventory and backorder decisions for review.",
+    "tag": "Order operations",
+    "seconds": 82,
+    "id": "order-fulfilment",
+    "video": "https://res.cloudinary.com/khornbvt/video/upload/v1792565050/iamtaw/automation/order-fulfilment.mp4",
+    "poster": "https://res.cloudinary.com/khornbvt/image/upload/v1792565102/iamtaw/automation/order-fulfilment-poster.webp",
+    "bytes": 3069819,
+    "uploadDate": "2026-10-21T06:44:10Z"
+  }
+]

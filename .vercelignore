@@ -1,0 +1,5 @@
+.git
+.openai
+README.md
+dist/assets/*.png
+!dist/apple-touch-icon.png

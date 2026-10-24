@@ -1,0 +1,101 @@
+[
+  {
+    "slug": "solitude",
+    "name": "Solitude Apartments",
+    "source_filename": "01-Solitude-Apartments-UI-Portfolio-Mockup.png",
+    "sector": "Hospitality",
+    "summary": "A quieter approach to a city stay.",
+    "url": "https://solitude-apartments-taw.vercel.app",
+    "description": "Deep green, warm cream and generous photography make the apartments the focus. The pages move from discovering the spaces to choosing a stay.",
+    "width": 1440,
+    "height": 1080
+  },
+  {
+    "slug": "triptick",
+    "name": "Triptick Logistics",
+    "source_filename": "02-1001375988.png",
+    "sector": "Logistics",
+    "summary": "Parcel dispatch for people and businesses.",
+    "url": "https://triptick-logistics-taw.vercel.app",
+    "description": "The opening explains the service straight away. Booking, parcel information and the business offering each have their own place in the page.",
+    "width": 1440,
+    "height": 1080
+  },
+  {
+    "slug": "make-me",
+    "name": "Make Me Beauty Place",
+    "source_filename": "03-1001376002.png",
+    "sector": "Beauty",
+    "summary": "A salon website in black and gold.",
+    "url": "https://makemebeauty-seven.vercel.app",
+    "description": "Hair photography leads the design. Service cards, a gallery and appointment prompts give visitors different ways to explore the salon.",
+    "width": 1440,
+    "height": 960
+  },
+  {
+    "slug": "zeste",
+    "name": "ZestéFoods",
+    "source_filename": "04-1001375968.png",
+    "sector": "Food",
+    "summary": "Food, meal plans and everyday ordering.",
+    "url": "https://zeste-foods-taw.vercel.app",
+    "description": "The food appears early and often. Meal choices and plans are presented in separate sections, with clear routes towards the next step.",
+    "width": 1440,
+    "height": 1080
+  },
+  {
+    "slug": "aylustre",
+    "name": "Aylustre Expressions",
+    "source_filename": "05-1001375975.png",
+    "sector": "Beauty",
+    "summary": "Bridal beauty and training.",
+    "url": "https://aylustre-expressions-taw.vercel.app",
+    "description": "Cobalt blue type and close-up photography give the pages a strong identity. Bridal services and training are presented as two distinct parts of the offering.",
+    "width": 1440,
+    "height": 1080
+  },
+  {
+    "slug": "dear-didi",
+    "name": "Dear Didi Beauty",
+    "source_filename": "06-1001375987.png",
+    "sector": "Beauty",
+    "summary": "A bridal makeup portfolio.",
+    "url": "https://dear-didi-beauty-taw.vercel.app",
+    "description": "The layout gives the makeup work room to speak. Warm neutrals frame the portfolio, while services and enquiries are kept easy to find.",
+    "width": 1440,
+    "height": 1080
+  },
+  {
+    "slug": "ori",
+    "name": "ORÍ",
+    "source_filename": "07-1001375962.png",
+    "sector": "Beauty",
+    "summary": "Hair services and a booking interaction.",
+    "url": "https://ori-studio-taw.vercel.app",
+    "description": "The salon concept pairs an editorial layout with a filterable service menu and booking preview. It is a frontend demonstration, not a live appointment system.",
+    "width": 1440,
+    "height": 1080
+  },
+  {
+    "slug": "topcars",
+    "name": "Topcars Abuja",
+    "source_filename": "08-1001375972.png",
+    "sector": "Automotive",
+    "summary": "Vehicle discovery and dealer enquiries.",
+    "url": "https://topcars-abuja-taw.vercel.app",
+    "description": "A dark palette and lime accents frame the cars. The page connects vehicle discovery with purchase and selling enquiries.",
+    "width": 1440,
+    "height": 1080
+  },
+  {
+    "slug": "apricot",
+    "name": "Apricot Apartments",
+    "source_filename": "09-1001375971.png",
+    "sector": "Hospitality",
+    "summary": "A city stay, with room to explore.",
+    "url": "https://apricot-apartments-taw.vercel.app",
+    "description": "The apartment catalogue and location choices do most of the explaining. Warm colours, spacious layouts and interior photography keep the focus on the stay.",
+    "width": 1440,
+    "height": 1080
+  }
+]
