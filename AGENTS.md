@@ -20,3 +20,5 @@ Portfolio homepage direction: omit duplicate discipline cards; use a compact int
 Complete brand-guide document uploads to public GitHub were blocked by automatic review pending explicit document-sharing approval. Publish the case studies and selected Cloudinary images; do not add full guide downloads until the user approves that sharing.
 
 6 November 2026: user explicitly approved retrying the complete brand-guide uploads to the public GitHub portfolio and public site. Restore the full guide downloads while retaining the source documents’ concept/working-kit labels.
+
+Rachelé Nails is spelled with an acute accent on the FINAL é (R-A-C-H-E-L-É). Its original identity artwork and website source confirm this. Include it as the ninth branding project, accurately scoped as identity presentation and website direction; no separate full brand-guide document was located.
