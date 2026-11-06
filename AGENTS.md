@@ -18,3 +18,5 @@ Portfolio homepage direction: omit duplicate discipline cards; use a compact int
 6 November 2026: user explicitly adds brand strategy and copywriting. Branding has its own collection, approach and individual project pages. Include all eight verified identities/studies, preserve concept labels, never invent outcomes. Writing in the navbar still leads to The Margin; the copywriting page lives at /copywriting/. New images use Cloudinary.
 
 Complete brand-guide document uploads to public GitHub were blocked by automatic review pending explicit document-sharing approval. Publish the case studies and selected Cloudinary images; do not add full guide downloads until the user approves that sharing.
+
+6 November 2026: user explicitly approved retrying the complete brand-guide uploads to the public GitHub portfolio and public site. Restore the full guide downloads while retaining the source documents’ concept/working-kit labels.
