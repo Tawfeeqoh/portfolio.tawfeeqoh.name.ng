@@ -1,35 +1,19 @@
-# iamtaw — My portfolio
+# iamtaw portfolio
 
-My web development and automation portfolio. Built to let the work speak: website previews, individual project pages, readable automation demos and a straightforward way to enquire.
+Website and automation portfolio for Tawfeeqoh Hamzat Eniola, deployed on Vercel at portfolio.tawfeeqoh.name.ng. Static source is in dist/.
 
-**Live:** https://portfolio.tawfeeqoh.name.ng/
+Ten website projects retain their matching Vercel links and enlarged mockup views. Automation has four n8n video demonstrations, clearly marked as simulated workflows. Cloudinary hosts the H.264 MP4s and WebP frame previews. Source details are in automation.json. There are no video downloads until an explicit play action; preview images are lazy loaded, native controls support fullscreen, and starting another video pauses the previous player. The four preview images total 29,594 bytes.
 
-## Built with
+Home, Work, Automation, About, Services, Contact and individual website project pages. Contact prepares an email draft; it does not store or send details. FORM and copywriting remain omitted.
 
-HTML, CSS and JavaScript. Static pages, locally hosted fonts and media hosted on Cloudinary. Videos load when someone chooses to play them.
+Exact brand colours, local fonts and diamond-tittle favicon. No decorative arrow icons or back-to-top control.
 
-## Explore
+## Site structure
 
-- `/websites/` — selected website work
-- `/automation/` — workflow demonstrations
-- `/work/` — individual project pages and previews
-- `/work-with-me/` — services, process and enquiries
+The personal landing page is tawfeeqoh.name.ng. This site is the separate portfolio landing page, with three primary routes: Websites at /websites/, Automation at /automation/, and Writing linking to The Margin at https://journal.tawfeeqoh.name.ng/. /work/ permanently redirects to /websites/; individual /work/<project>/ URLs remain valid. The portfolio footer links back to the personal homepage and publication.
 
-The automation videos are demonstrations of simulated workflows. THE MARGIN, my independent publication, lives on its own subdomain.
+## Curated entry points
 
-## Run locally
+The portfolio homepage combines three discipline routes with a selected website, a click-to-play Cloudinary automation demo and a real published essay. Writing links to The Margin /start-here; About Taw links to the personal homepage. Services and Contact redirect to /work-with-me/, which combines the offers, process and enquiry. The shared footer connects Tawfeeqoh, Portfolio and The Margin.
 
-```sh
-python3 -m http.server 8080 --directory dist
-```
-
-Open http://localhost:8080. Deploy `dist/` as the static output. `vercel.json` retains redirects for older URLs.
-
-## Project files
-
-- `dist/` — website source, pages and assets
-- `projects.json` — website project information
-- `automation.json` — automation media information
-- `scripts/` — project maintenance scripts
-
-Built by Tawfeeqoh Hamzat.
+Analytics: portfolio pages use Google tag G-Z8ZNENC9LN, asynchronously loaded once in each page head.

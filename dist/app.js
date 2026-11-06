@@ -25,3 +25,16 @@ document.querySelectorAll('[data-play-video]').forEach(button=>{
 document.querySelectorAll('.video-shell video').forEach(video=>{
  video.addEventListener('play',()=>document.querySelectorAll('.video-shell video').forEach(other=>{if(other!==video)other.pause()}));
 });
+
+// Keep tall cards in normal flow so short viewports and zoom never hide content.
+const stackedPieces=[...document.querySelectorAll('.portfolio-home .selected-piece')];
+if(stackedPieces.length){
+ const updateStackFit=()=>stackedPieces.forEach(card=>{
+  const top=parseFloat(getComputedStyle(card).getPropertyValue('--stack-top'))||0;
+  card.dataset.stackFit=String(card.getBoundingClientRect().height<=window.innerHeight-top-16);
+ });
+ updateStackFit();
+ window.addEventListener('resize',updateStackFit,{passive:true});
+ if('ResizeObserver' in window){const observer=new ResizeObserver(updateStackFit);stackedPieces.forEach(card=>observer.observe(card));}
+ document.fonts?.ready.then(updateStackFit);
+}
